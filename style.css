@@ -1,0 +1,64 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .nav-items p {
+     font-size: 1rem;
+     /* Adjust font size as needed */
+ }
+
+ .nav-link {
+     color: purple;
+ }
+
+ @media (max-width: 576px) {
+     .nav-items p {
+         font-size: 0.9rem;
+         /* Slightly smaller font on extra-small screens */
+     }
+ }
+
+ .nav-items {
+     background: rgb(141, 33, 141);
+ }
+
+ 
+
+ .mobile {
+     border: 10px solid black;
+     background: white;
+ }
+
+ @media (max-width:600px) {
+     #navLinks li {
+         font-size: 7px;
+     }
+
+ }
+
+ #navLinks li {
+     display: flex;
+ }
+
+ .span {
+     font-size: 10px;
+ }
+
+ .progress {
+     height: 3px;
+     background: rgb(16, 158, 215);
+ }
+
+ .down {
+     margin-top: 150px;
+ }
+
+ .img img {
+     height: 150px;
+ }
+
+ .content {
+     background: silver;
+ }
